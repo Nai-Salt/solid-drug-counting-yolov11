@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Besar Bulat', 'Besar Lonjong', 'Kecil Bulat', 'Kecil Lonjong']
+
+roboflow:
+  workspace: pta-sicce
+  project: my-first-project-s24fd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pta-sicce/my-first-project-s24fd/dataset/1
